@@ -34,6 +34,7 @@ a.externo::after {
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
+    color: white;
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -42,13 +43,11 @@ header{
 }
 header > h1 {
     padding: 10px;
-    color: white ;
     font-family: var(--fonte-destaque);
     font-size: 3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.514);
 }
 header > p {
-    color: white;
     background-color: var(--cor4);
     max-width: 600px;
     margin: auto;
